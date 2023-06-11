@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--? web icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Loc's Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Loc's Portfolio.</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home__social-media home__social-media--show">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="home__content">
+        <h3>Hi!, It's me</h3>
+        <h1>Dai Loc</h1>
+        <h3>I'm a <span>Full-stack developer</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum
+          vero quis reiciendis obcaecati quam, at quas.
+        </p>
+        <div class="home__social-media home__social-media--hidden">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="" class="home__btn">Download CV</a>
+      </div>
+      <div class="home__img">
+        <img src="./assets/images/home.png" alt="" />
+      </div>
+    </section>
+    <!--todo about section -->
+    <section class="about" id="about">
+      <div class="about__img">
+        <img src="./assets/images/about.png" alt="" />
+      </div>
+      <div class="about__content">
+        <h2 class="about__content-heading">About <span>Me</span></h2>
+        <h3>Full-stack developer!</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In enim eius
+          voluptatum, soluta modi reprehenderit doloremque reiciendis dolorem
+          consequuntur mollitia quod, sapiente sequi inventore ex error esse?
+          Non, laudantium velit!
+        </p>
+        <a href="" class="about__btn-read-more">Read More</a>
+      </div>
+    </section>
+    <!--? skill section  -->
+    <section class="skill" id="skill">
+      <h2 class="skill__heading">My <span>Skill</span></h2>
+      <div class="skill__container">
+        <div class="skill__box">
+          <i class="bx bx-code-alt skill__box-head-icon"></i>
+          <h3>Front-end skill</h3>
+          <ul class="skill__list">
+            <li class="skill__item">
+              <i class="bx bxl-html5" style="color: rgb(255, 77, 0)"></i>
+              <!-- <span class="skill__item-text">HTML 5</span> -->
+            </li>
+            <li class="skill__item">
+              <i class="bx bxl-css3" style="color: rgb(45, 202, 245)"></i>
+              <!-- <span class="skill__item-text">CSS 3</span> -->
+            </li>
+            <li class="skill__item">
+              <i class="bx bxl-javascript" style="color: rgb(229, 255, 0)"></i>
+            </li>
+            <li class="skill__item">
+              <i class="bx bxl-bootstrap" style="color: rgb(186, 43, 242)"></i>
+            </li>
+          </ul>
+          <a href="" class="skill__box-btn-read-more">Read More</a>
+        </div>
+        <div class="skill__box">
+          <i class="bx bx-terminal skill__box-head-icon"></i>
+          <h3>Back-end skill</h3>
+          <ul class="skill__list">
+            <li class="skill__item"><i class="bx bxl-java"></i></li>
+            <li class="skill__item"><i class="bx bxl-php"></i></li>
+            <li class="skill__item"><i class="bx bx-data"></i></li>
+            <li class="skill__item">
+              <i class="bx bxl-nodejs" style="color: rgb(8, 208, 48)"></i>
+            </li>
+          </ul>
+          <a href="" class="skill__box-btn-read-more">Read More</a>
+        </div>
+        <div class="skill__box">
+          <i class="bx bxl-jsfiddle skill__box-head-icon"></i>
+          <h3>DevOps skill</h3>
+          <ul class="skill__list">
+            <li class="skill__item">
+              <i class="bx bxl-docker" style="color: rgb(8, 131, 207)"></i>
+            </li>
+            <li class="skill__item"><i class="bx bxl-aws"></i></li>
+            <li class="skill__item"><i class="bx bxl-heroku"></i></li>
+            <li class="skill__item"><i class="bx bxl-python"></i></li>
+          </ul>
+          <a href="" class="skill__box-btn-read-more">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!--todo portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="portfolio__heading">Latest <span>Project</span></h2>
+      <div class="portfolio__container">
+        <div class="portfolio__box">
+          <img src="./assets/images/p1.png" alt="" width="388px" height="222" />
+          <div class="portfolio__layer">
+            <h4>Tile</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              fuga, impedit facilis minima corrupti odit commodi maxime.
+            </p>
+            <a target="_blank" href="https://locs3r.github.io/test/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio__box">
+          <img src="./assets/images/p2.png" alt="" width="388px" height="222" />
+          <div class="portfolio__layer">
+            <h4>Tile</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              fuga, impedit facilis minima corrupti odit commodi maxime.
+            </p>
+            <a target="_blank" href="https://locs3r.github.io/test/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio__box">
+          <img src="./assets/images/p3.png" alt="" width="388px" height="222" />
+          <div class="portfolio__layer">
+            <h4>Tile</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              fuga, impedit facilis minima corrupti odit commodi maxime.
+            </p>
+            <a target="_blank" href="https://locs3r.github.io/test/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio__box">
+          <img src="./assets/images/p4.png" alt="" />
+          <div class="portfolio__layer">
+            <h4>Tile</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              fuga, impedit facilis minima corrupti odit commodi maxime.
+            </p>
+            <a target="_blank" href="https://locs3r.github.io/test/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio__box">
+          <img src="./assets/images/p5.png" alt="" />
+          <div class="portfolio__layer">
+            <h4>Tile</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              fuga, impedit facilis minima corrupti odit commodi maxime.
+            </p>
+            <a target="_blank" href="https://locs3r.github.io/test/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio__box">
+          <img src="./assets/images/p6.png" alt="" width="388px" height="222" />
+          <div class="portfolio__layer">
+            <h4>Tile</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              fuga, impedit facilis minima corrupti odit commodi maxime.
+            </p>
+            <a target="_blank" href="https://locs3r.github.io/test/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <!--! -->
+      </div>
+    </section>
+    <!--? contact section -->
+    <section class="contact" id="contact">
+      <h2 class="contact__heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="contact__input-box">
+          <input type="text" placeholder="Full name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="contact__input-box">
+          <input type="number" placeholder="Phone number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="contact__btn-submit" />
+      </form>
+    </section>
+    <!--?  -->
+
+    <!--todo  -->
+
+    <footer class="footer">
+      <div class="footer__text">
+        <p>Copyright &copy; 2023 by Dai Loc</p>
+      </div>
+      <div class="footer__icon-top">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <!-- script lib -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- script custom-->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
