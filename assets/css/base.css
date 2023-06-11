@@ -1,0 +1,36 @@
+@font-face {
+  font-family: GIFont;
+  src: url(../fonts/ja-jp.ttf);
+}
+
+:root {
+  --bg--color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #fff;
+  --main-color: #1adde7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: GIFont;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg--color);
+  color: var(--text-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 10%;
+}
