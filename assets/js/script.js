@@ -33,7 +33,6 @@ window.onscroll = () => {
   menuIcon.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
-
 // scroll reveal
 ScrollReveal({
   //   reset: true,
@@ -51,3 +50,13 @@ ScrollReveal().reveal(
 );
 ScrollReveal().reveal(".home__content h1, .about img", { origin: "left" });
 ScrollReveal().reveal(".home__content p, .about__content", { origin: "right" });
+
+// typed
+
+const typed = new Typed(".multiple-text", {
+  strings: ["Full-stack developer", "Designer", "Gamer"],
+  typeSpeed: 80,
+  backSpeed: 70,
+  backDelay: 900,
+  loop: true,
+});
