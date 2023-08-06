@@ -54,9 +54,20 @@ ScrollReveal().reveal(".home__content p, .about__content", { origin: "right" });
 // typed
 
 const typed = new Typed(".multiple-text", {
-  strings: ["Full-stack developer", "Designer", "Gamer"],
+  strings: ["Full-stack developer", "Gamer"],
   typeSpeed: 80,
   backSpeed: 70,
   backDelay: 900,
   loop: true,
 });
+function toggleReadMore() {
+  var content = document.querySelector(".content");
+  var link = document.querySelector(".about__btn-read-more");
+  if (content.style.maxHeight === "100px") {
+    content.style.maxHeight = "none";
+    link.textContent = "Read Less";
+  } else {
+    content.style.maxHeight = "100px";
+    link.textContent = "Read More";
+  }
+}

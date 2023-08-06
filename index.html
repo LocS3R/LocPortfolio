@@ -38,8 +38,14 @@
         <h1>Dai Loc</h1>
         <h3>I'm a <span class="multiple-text"></span></h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsum
-          vero quis reiciendis obcaecati quam, at quas.
+          &nbsp;&nbsp;&nbsp;&nbsp;Trong Portfolio của tôi, bạn sẽ có cơ hội khám
+          phá các dự án mà tôi đã tham gia, từ những ứng dụng công nghệ sáng tạo
+          đến các dự án thú vị khác liên quan đến lập trình web.
+          <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;Hãy cùng nhau thám hiểm qua các dự
+          án của tôi và đừng ngần ngại liên hệ với tôi để chúng ta có thể cùng
+          nhau đóng góp vào các dự án thú vị trong tương lai. <br /><br />
+          Xin cảm ơn vì đã ghé thăm Portfolio của tôi!
+          <br /><br />Trân trọng, <br />Đại Lộc
         </p>
         <div class="home__social-media home__social-media--hidden">
           <a href="#"><i class="bx bxl-facebook"></i></a>
@@ -59,13 +65,41 @@
       <div class="about__content">
         <h2 class="about__content-heading">About <span>Me</span></h2>
         <h3>Full-stack developer!</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. In enim eius
-          voluptatum, soluta modi reprehenderit doloremque reiciendis dolorem
-          consequuntur mollitia quod, sapiente sequi inventore ex error esse?
-          Non, laudantium velit!
-        </p>
-        <a href="" class="about__btn-read-more">Read More</a>
+        <div class="content">
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;Xin chào! Tôi là
+            <span style="color: aqua">Đại Lộc</span>, với đam mê sâu sắc đối với
+            lập trình web. Tôi luôn tìm kiếm cơ hội để thách thức bản thân và
+            khám phá những khả năng mới. Sự sáng tạo luôn thúc đẩy tôi, và tôi
+            thích khám phá những ý tưởng mới để biến chúng thành hiện thực.
+            <br />
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;Tôi đã có cơ hội tham gia vào nhiều dự án
+            thú vị, từ việc phát triển ứng dụng đến tạo ra các trải nghiệm người
+            dùng độc đáo. Tôi tin rằng việc học luôn không bao giờ dừng lại. Tôi
+            không ngừng nâng cao kiến thức và kỹ năng của mình để có thể đối mặt
+            với những thách thức mới và đưa ra những giải pháp tốt nhất.
+            <br />
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;Khi tôi không làm việc, tôi thích nghe nhạc
+            và chơi game. Đây là cách tôi giữ tâm hồn mình cân bằng và tạo động
+            lực cho công việc. Portfolio này là nơi tôi chia sẻ những dự án và
+            thành tựu mà tôi đã đạt được. Hãy cùng nhau khám phá và nếu bạn muốn
+            biết thêm về tôi hoặc hợp tác, xin vui lòng liên hệ. <br /><br />
+            Cảm ơn vì đã ghé thăm! <br />
+            Đại Lộc
+          </p>
+        </div>
+
+        <button
+          href="#"
+          class="about__btn-read-more"
+          onclick="toggleReadMore()"
+        >
+          Read More
+        </button>
       </div>
     </section>
     <!--? skill section  -->
@@ -128,11 +162,8 @@
         <div class="portfolio__box">
           <img src="./assets/images/p1.png" alt="" width="388px" height="222" />
           <div class="portfolio__layer">
-            <h4>Tile</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga, impedit facilis minima corrupti odit commodi maxime.
-            </p>
+            <h4>To-do app</h4>
+            <p>Làm quen với JavaScript bằng dự án to-do app</p>
             <a target="_blank" href="https://locs3r.github.io/test/"
               ><i class="bx bx-link-external"></i
             ></a>
@@ -142,11 +173,8 @@
         <div class="portfolio__box">
           <img src="./assets/images/p2.png" alt="" width="388px" height="222" />
           <div class="portfolio__layer">
-            <h4>Tile</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga, impedit facilis minima corrupti odit commodi maxime.
-            </p>
+            <h4>Docker</h4>
+            <p>Làm quen với docker</p>
             <a target="_blank" href="https://locs3r.github.io/test/"
               ><i class="bx bx-link-external"></i
             ></a>
@@ -156,11 +184,8 @@
         <div class="portfolio__box">
           <img src="./assets/images/p3.png" alt="" width="388px" height="222" />
           <div class="portfolio__layer">
-            <h4>Tile</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga, impedit facilis minima corrupti odit commodi maxime.
-            </p>
+            <h4>Portfolio</h4>
+            <p>Chính là website mà bạn đang khám phá</p>
             <a target="_blank" href="https://locs3r.github.io/test/"
               ><i class="bx bx-link-external"></i
             ></a>
@@ -170,11 +195,8 @@
         <div class="portfolio__box">
           <img src="./assets/images/p4.png" alt="" />
           <div class="portfolio__layer">
-            <h4>Tile</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga, impedit facilis minima corrupti odit commodi maxime.
-            </p>
+            <h4>NodeJS</h4>
+            <p>Làm quen với NodeJS</p>
             <a target="_blank" href="https://locs3r.github.io/test/"
               ><i class="bx bx-link-external"></i
             ></a>
@@ -184,11 +206,8 @@
         <div class="portfolio__box">
           <img src="./assets/images/p5.png" alt="" />
           <div class="portfolio__layer">
-            <h4>Tile</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga, impedit facilis minima corrupti odit commodi maxime.
-            </p>
+            <h4>JavaScript</h4>
+            <p>Cùng học JavaScript từ cơ bản đến nâng cao</p>
             <a target="_blank" href="https://locs3r.github.io/test/"
               ><i class="bx bx-link-external"></i
             ></a>
@@ -198,11 +217,8 @@
         <div class="portfolio__box">
           <img src="./assets/images/p6.png" alt="" width="388px" height="222" />
           <div class="portfolio__layer">
-            <h4>Tile</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga, impedit facilis minima corrupti odit commodi maxime.
-            </p>
+            <h4>HTML and CSS</h4>
+            <p>HTML CSS zero to hero</p>
             <a target="_blank" href="https://locs3r.github.io/test/"
               ><i class="bx bx-link-external"></i
             ></a>
@@ -253,6 +269,7 @@
     <!-- typed js -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- script custom-->
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
