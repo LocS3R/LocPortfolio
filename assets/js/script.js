@@ -60,14 +60,3 @@ const typed = new Typed(".multiple-text", {
   backDelay: 900,
   loop: true,
 });
-function toggleReadMore() {
-  var content = document.querySelector(".content");
-  var link = document.querySelector(".about__btn-read-more");
-  if (content.style.maxHeight === "100px") {
-    content.style.maxHeight = "none";
-    link.textContent = "Read Less";
-  } else {
-    content.style.maxHeight = "100px";
-    link.textContent = "Read More";
-  }
-}

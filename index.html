@@ -269,7 +269,19 @@
     <!-- typed js -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- script custom-->
-
+    <script>
+      function toggleReadMore() {
+        var content = document.querySelector(".content");
+        var link = document.querySelector(".about__btn-read-more");
+        if (content.style.maxHeight === "100px") {
+          content.style.maxHeight = "none";
+          link.textContent = "Read Less";
+        } else {
+          content.style.maxHeight = "100px";
+          link.textContent = "Read More";
+        }
+      }
+    </script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
